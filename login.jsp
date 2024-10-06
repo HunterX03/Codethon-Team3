@@ -14,7 +14,6 @@
      <input type="password" placeholder="Enter Password" id="password" name="password" required>
      
       <button class="submit" type="submit">Login</button><br>
-      <span>Don't have an account? <a href="" class="signup">Sign Up</a></span>
-
+      <span>Don't have an account? <a href="Signup.jsp" class="signup">Sign Up</a></span>
 </body>
 </html>
