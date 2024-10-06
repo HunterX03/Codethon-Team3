@@ -7,10 +7,22 @@
     <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
 </head>
 <body>
+    <h1>--------WELCOME-------</h1>
+
     <div class="container">
-        <h1>--------WELCOME-------</h1>
-        <a href="Login.jsp" class="btn">Login</a>
-        <a href="Signup.jsp" class="btn">Signup</a>
-    </div>
+        <!-- Admin Box -->
+        <div class="box">
+            <h3>Administrator</h3>
+            <a href="AdminLogin.jsp?role=admin">Login as Admin</a>
+        </div>
+
+        <!-- User Box -->
+        <div class="box">
+            <h3>User</h3>
+            <a href="ULogin.jsp?role=user">Login as User</a>
+        </div>
+    </div>
+</body>
+    
 </body>
 </html>
