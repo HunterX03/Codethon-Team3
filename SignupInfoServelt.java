@@ -17,7 +17,7 @@ public class SignupInfoServlet extends HttpServlet{
 		session.setAttribute("username",username);
 		session.setAttribute("password",password);
 		
-		resp.sendRedirect("login.jsp");			//sending session object(credentials) to login page
+		resp.sendRedirect("Login.jsp");			//sending session object(credentials) to login page
 		
 	}
 }
