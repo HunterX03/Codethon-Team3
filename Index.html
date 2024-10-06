@@ -1,10 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+<meta charset="UTF-8">
+<title>Landing Page - Index</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1 {
+        margin-top: 50px;
+        font-size: 36px;
+        color: #004aad;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .box {
+        background-color: #ffffff;
+        width: 200px;
+        height: 200px;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .box:hover {
+        transform: scale(1.1);
+    }
+
+    .box h3 {
+        font-size: 22px;
+        color: #333333;
+    }
+
+    .box a {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #004aad;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease-in-out;
+    }
+
+    .box a:hover {
+        background-color: #002f66;
+    }
+</style>
 </head>
 <body>
     <h1>--------WELCOME-------</h1>
@@ -21,8 +76,6 @@
             <h3>User</h3>
             <a href="ULogin.jsp?role=user">Login as User</a>
         </div>
-    </div>
-</body>
-    
+    </div>
 </body>
 </html>
